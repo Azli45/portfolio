@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azli Khan — Data Engineer & AI/ML Builder</title>
+<meta name="description" content="Azli Khan — AI & ML engineering student building end-to-end data pipelines, ML models, and BI systems. Open to Data Analytics, Data Engineering, AI/ML and BI internships.">
+<meta name="theme-color" content="#0a0a0c">
+<!-- Open Graph -->
+<meta property="og:title" content="Azli Khan — Data Engineer & AI/ML Builder">
+<meta property="og:description" content="End-to-end data pipelines, ML systems, and BI dashboards. Open to internships.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- progress bar tied to scroll -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav glass" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">AK<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#github">GitHub</a>
+      <a href="#timeline">Journey</a>
+      <a href="#learning">Learning</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="recruiter-toggle" id="recruiterToggle" aria-pressed="false">
+        <i class="ri-flashlight-line"></i> Recruiter mode
+      </button>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire me</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO / LIVE DASHBOARD ============ -->
+<header class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy reveal">
+      <div class="status-pill">
+        <span class="pulse-dot"></span> Open to Data / AI-ML / BI internships
+      </div>
+      <h1 class="hero-title">
+        Building intelligent data systems that turn <span class="text-gradient">messy data</span> into business decisions.
+      </h1>
+      <p class="hero-sub">
+        Azli Khan — AI &amp; ML engineering student. I design pipelines, train models, and ship dashboards that survive contact with real stakeholders.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View projects <i class="ri-arrow-right-up-line"></i></a>
+        <a href="resume.pdf" class="btn btn-secondary" download>Download résumé <i class="ri-download-2-line"></i></a>
+        <a href="https://github.com/Azli45" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/azli-khan07" target="_blank" rel="noopener" class="btn btn-icon" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+      </div>
+    </div>
+
+    <!-- live metrics dashboard -->
+    <div class="dashboard glass reveal" id="dashboard">
+      <div class="dashboard-head">
+        <span class="dashboard-dot dot-red"></span>
+        <span class="dashboard-dot dot-yellow"></span>
+        <span class="dashboard-dot dot-green"></span>
+        <span class="dashboard-title">azli_metrics.live</span>
+      </div>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-medal-line"></i></div>
+          <div class="metric-value" data-target="8.79" data-decimals="2">0</div>
+          <div class="metric-label">CGPA / 10</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-stack-line"></i></div>
+          <div class="metric-value" data-target="5">0</div>
+          <div class="metric-label">End-to-end projects</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-database-2-line"></i></div>
+          <div class="metric-value" data-target="60000" data-suffix="+">0</div>
+          <div class="metric-label">Records analyzed</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-terminal-box-line"></i></div>
+          <div class="metric-value" data-target="30">0</div>
+          <div class="metric-label">SQL projects shipped</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-presentation-line"></i></div>
+          <div class="metric-value" data-target="5" data-suffix="+">0</div>
+          <div class="metric-label">Workshops conducted</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-group-line"></i></div>
+          <div class="metric-value" data-target="500" data-suffix="+">0</div>
+          <div class="metric-label">Students reached</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="ri-award-line"></i></div>
+          <div class="metric-value" data-target="2">0</div>
+          <div class="metric-label">Certifications</div>
+        </div>
+        <div class="metric-card metric-status">
+          <div class="metric-icon"><i class="ri-radar-line"></i></div>
+          <div class="metric-value-text">Available</div>
+          <div class="metric-label">Internship status</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PROJECTS — mini product pages ============ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Case studies</span>
+      <h2>Projects, treated like products.</h2>
+      <p>Each one below expands into a full case study — problem, workflow, architecture, and the business impact it produced.</p>
+    </div>
+
+    <div class="project-list" id="projectList"><!-- injected by app.js --></div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Capability map</span>
+      <h2>What I actually use, and how well.</h2>
+      <p>Self-rated, deliberately conservative. Click a category to expand it.</p>
+    </div>
+    <div class="skills-grid" id="skillsGrid"><!-- injected by app.js --></div>
+  </div>
+</section>
+
+<!-- ============ GITHUB ============ -->
+<section id="github" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Open source</span>
+      <h2>How I actually work.</h2>
+      <p>Live snapshot of activity — commits, pinned repos, contribution rhythm.</p>
+    </div>
+    <div class="github-panel glass reveal">
+      <div class="github-top">
+        <div class="github-id">
+          <i class="ri-github-fill"></i>
+          <div>
+            <div class="github-name">Azli45</div>
+            <a href="https://github.com/Azli45" target="_blank" rel="noopener">github.com/Azli45 <i class="ri-arrow-right-up-line"></i></a>
+          </div>
+        </div>
+        <div class="github-stats">
+          <div><strong id="ghRepos">—</strong><span>repos</span></div>
+          <div><strong id="ghStreak">Daily</strong><span>commit habit</span></div>
+          <div><strong>Bronze→Gold</strong><span>warehouse design</span></div>
+        </div>
+      </div>
+      <div class="contrib-graph" id="contribGraph" aria-label="Contribution activity, illustrative"></div>
+      <div class="pinned-repos" id="pinnedRepos"><!-- injected --></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section id="timeline" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Journey</span>
+      <h2>Education, leadership, milestones.</h2>
+    </div>
+    <div class="timeline" id="timelineList"><!-- injected --></div>
+  </div>
+</section>
+
+<!-- ============ CURRENTLY LEARNING ============ -->
+<section id="learning" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Always shipping, always learning</span>
+      <h2>Currently leveling up in.</h2>
+    </div>
+    <div class="learning-grid reveal">
+      <div class="learning-chip"><i class="ri-cpu-line"></i> Apache Spark</div>
+      <div class="learning-chip"><i class="ri-box-3-line"></i> Docker</div>
+      <div class="learning-chip"><i class="ri-flow-chart"></i> Airflow</div>
+      <div class="learning-chip"><i class="ri-git-merge-line"></i> dbt</div>
+      <div class="learning-chip"><i class="ri-cloud-line"></i> Azure</div>
+      <div class="learning-chip"><i class="ri-snowflake-line"></i> Snowflake</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section section-contact">
+  <div class="container">
+    <div class="contact-panel glass reveal">
+      <div class="contact-left">
+        <span class="eyebrow">Let's talk</span>
+        <h2>Hiring for Data, AI/ML, or BI?</h2>
+        <p>I reply within a day. Resume below if 30 seconds is all you've got.</p>
+        <div class="contact-rows">
+          <a class="contact-row" href="mailto:azlikhan453@gmail.com"><i class="ri-mail-line"></i> azlikhan453@gmail.com</a>
+          <a class="contact-row" href="tel:+919300697909"><i class="ri-phone-line"></i> +91 93006 97909</a>
+          <a class="contact-row" href="https://www.linkedin.com/in/azli-khan07" target="_blank" rel="noopener"><i class="ri-linkedin-fill"></i> linkedin.com/in/azli-khan07</a>
+          <a class="contact-row" href="https://github.com/Azli45" target="_blank" rel="noopener"><i class="ri-github-fill"></i> github.com/Azli45</a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="status-card">
+          <div class="status-row"><span>Status</span><strong class="status-green">Available now</strong></div>
+          <div class="status-row"><span>Location</span><strong>Jabalpur, India</strong></div>
+          <div class="status-row"><span>Looking for</span><strong>Internships</strong></div>
+          <div class="status-row"><span>Response time</span><strong>&lt; 24 hrs</strong></div>
+          <a href="resume.pdf" download class="btn btn-primary btn-block">Download résumé <i class="ri-download-2-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 Azli Khan. Built with intent, not a template.</span>
+    <div class="footer-links">
+      <a href="mailto:azlikhan453@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/azli-khan07" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Azli45" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ AZLIGPT CHATBOT ============ -->
+<div class="chatbot" id="chatbot">
+  <button class="chatbot-fab" id="chatbotFab" aria-label="Open AzliGPT assistant" aria-expanded="false">
+    <i class="ri-message-3-line" id="fabIconOpen"></i>
+    <i class="ri-close-line" id="fabIconClose" style="display:none;"></i>
+  </button>
+  <div class="chatbot-panel glass" id="chatbotPanel" role="dialog" aria-label="AzliGPT chat assistant" hidden>
+    <div class="chatbot-head">
+      <div class="chatbot-avatar"><i class="ri-sparkling-2-fill"></i></div>
+      <div>
+        <div class="chatbot-title">AzliGPT</div>
+        <div class="chatbot-subtitle">Ask me about Azli's work</div>
+      </div>
+    </div>
+    <div class="chatbot-body" id="chatbotBody"></div>
+    <div class="chatbot-quick" id="chatbotQuick"></div>
+    <form class="chatbot-input" id="chatbotForm">
+      <input type="text" id="chatbotInput" placeholder="Ask about projects, skills, why hire me…" autocomplete="off">
+      <button type="submit" aria-label="Send"><i class="ri-send-plane-fill"></i></button>
+    </form>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
